@@ -1,0 +1,99 @@
+/* Footer Section */
+.footer {
+  background: var(--background);
+  padding: 5rem 0 2rem;
+  /* color: var(--text-light); */
+}
+
+/* Logo Styling */
+.footer-logo {
+  height: 250px;
+  margin-bottom: 1.5rem;
+  margin-top: -70px;
+}
+
+/* Headings */
+.footer h5 {
+  color: var(--primary-light);
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+/* Navigation Links */
+.footer .nav-link {
+  padding: 0.5rem 0 !important;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.footer .nav-link:hover {
+  opacity: 1;
+  color: var(--primary-light) !important;
+  transform: translateX(5px);
+}
+
+/* Contact Form */
+.newsletter-form {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.newsletter-form input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(157, 78, 221, 0.2);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+/* Placeholder Text - White */
+.newsletter-form input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+
+/* Submit Button */
+.newsletter-form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 0 1.5rem;
+  background: var(--primary-light);
+  color: var(--white);
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  transition: all 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background: var(--primary);
+}
+
+/* Footer Copyright */
+.copyright {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(157, 78, 221, 0.2);
+  font-size: 0.9rem;
+  opacity: 0.8;
+  color: white;
+}
+
+.footer-left p{
+  margin-top: -30px;
+  color: white;
+}
+
+.footer-left{
+  margin-left: -30px;
+}
+
+.footer-right{
+  margin-left: 30px;
+}
+
+.phone{
+  color: white;
+}
