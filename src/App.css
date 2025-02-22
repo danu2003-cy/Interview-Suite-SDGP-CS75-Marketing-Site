@@ -1,0 +1,123 @@
+/* Add to your existing CSS */
+
+/* Particle Background */
+.particles-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Glow Effects */
+  .glow-button {
+    position: relative;
+    overflow: hidden;
+    background: var(--accent);
+    color: white !important;
+    border: none;
+    box-shadow: 0 0 20px rgba(157, 78, 221, 0.5);
+  }
+  
+  .glow-button:hover {
+    background: var(--highlight);
+    box-shadow: 0 0 30px rgba(157, 78, 221, 0.8);
+  }
+  
+  .glow-button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(157, 78, 221, 0.3) 0%, transparent 70%);
+    transform: rotate(45deg);
+    animation: glowRotate 3s linear infinite;
+  }
+  
+  @keyframes glowRotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Card Hover Effects */
+  .feature-card {
+    background: rgba(60, 9, 108, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(157, 78, 221, 0.2);
+    transition: all 0.4s ease;
+  }
+  
+  .feature-card:hover {
+    border-color: rgba(157, 78, 221, 0.5);
+    box-shadow: 0 0 30px rgba(157, 78, 221, 0.2);
+  }
+  
+  .feature-icon {
+    transition: all 0.4s ease;
+  }
+  
+  .feature-card:hover .feature-icon {
+    transform: scale(1.1) rotate(10deg);
+    color: var(--purple-light);
+  }
+  
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Loading Animation */
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
+  .loading {
+    background: linear-gradient(
+      90deg,
+      rgba(60, 9, 108, 0.2) 25%,
+      rgba(90, 24, 154, 0.3) 50%,
+      rgba(60, 9, 108, 0.2) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+  
+  /* Gradient Text Animation */
+  .gradient-text {
+    background: linear-gradient(
+      45deg,
+      var(--purple-light),
+      var(--text-light),
+      var(--purple-light)
+    );
+    background-size: 200% 100%;
+    animation: gradientMove 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  @keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
