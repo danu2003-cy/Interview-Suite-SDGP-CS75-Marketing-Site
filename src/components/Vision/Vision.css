@@ -5,6 +5,9 @@
   
   .vision-header h2 {
     color: hsla(0, 0%, 100%, 0.663);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
   }
   
   .vision-header p {

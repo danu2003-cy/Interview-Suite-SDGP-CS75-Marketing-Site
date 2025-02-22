@@ -24,8 +24,8 @@ function AboutUs() {
     <section className="about-us" id="about">
       <Container>
         <div className="about-section-header text-center">
-          <h2 className="fade-in">Meet Our Team</h2>
-          <p className="lead mb-5 fade-in">A passionate team dedicated to redefining interview preparation</p>
+          <h2 className="fade-in text-white">Meet Our Team</h2>
+          <p className="lead mb-5 text-center fade-in">A passionate team dedicated to redefining interview preparation</p>
         </div>
 
         <div className="row text-center">

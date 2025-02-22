@@ -35,7 +35,7 @@ function Contact() {
               <Form.Group className="mb-3">
                 <Form.Control type="text" placeholder="Website" />
               </Form.Group>
-              <Button variant="primary" type="submit" className="w-100">SEND MESSAGE</Button>
+              <Button variant="primary" type="submit" className="w-100 contact-btn">SEND MESSAGE</Button>
             </Form>
           </div>
         </div>

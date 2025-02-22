@@ -13,6 +13,8 @@
     color: hsla(0, 0%, 100%, 0.699);
     margin-top: -50px;
     padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
   }
   
   .video-container {

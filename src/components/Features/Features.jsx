@@ -67,8 +67,10 @@ function Features() {
           transition={{ duration: 0.8 }}
           ref={ref}
         >
-          <h2>We're Interview Suite</h2>
-          <h3>AI-Powered Mock Interview Platform</h3>
+          <div className="features-caption">
+            <h2 className="text-white">We're Interview Suite</h2>
+            <h3 className="text-white">AI-Powered Mock Interview Platform</h3>
+          </div>
         </motion.div>
 
         <motion.div

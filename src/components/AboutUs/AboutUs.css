@@ -8,6 +8,11 @@
   color: white;
 }
 
+.about-section-header h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+
 /* Team Card */
 .team-card {
   background: rgba(90, 24, 154, 0.1);
