@@ -12,7 +12,7 @@ function Footer() {
     const userEmail = document.getElementById("userEmail").value;
 
     if (userEmail) {
-      const mailtoLink = `mailto:dewmindidhanushi2003@gmail.com?subject=Newsletter Subscription&body=Hello, I would like to subscribe to the newsletter. My email: ${userEmail}`;
+      const mailtoLink = `mailto:interviewsuite@gmail.com?subject=Newsletter Subscription&body=Hello, I would like to subscribe to the newsletter. My email: ${userEmail}`;
       window.location.href = mailtoLink;
     } else {
       alert("Please enter a valid email address.");
