@@ -9,7 +9,7 @@ function Contact() {
       <Container>
         <div className="row">
           <div className="col-md-6">
-            <h2>Want to WOW Your Customers?</h2>
+            <h2 className='contact-topic'>Want to WOW Your Customers?</h2>
             <div className="contact-info">
               <p className="lead mb-4">Ready to transform your interview experience? Get in touch with our team today!</p>
               <div className="d-flex align-items-center mb-4">
