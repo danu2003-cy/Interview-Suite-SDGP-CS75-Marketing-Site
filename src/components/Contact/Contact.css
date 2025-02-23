@@ -46,3 +46,7 @@
     background: var(--primary);
     transform: translateY(-2px);
   }
+
+  .contact-topic{
+    font-weight: 700;
+  }

@@ -40,7 +40,7 @@ const Vision = () => {
                 <div className="stat-box">💬 75% <br /> Lack real interview experience</div>
               </div>
 
-              <img src={challange} alt="Interview Struggles" className="challenge-img" />
+              <img src={challange} alt="Interview Struggles" className="challenge-img mt-4" />
               <p className="text-muted">Common struggles faced by fresh IT interns</p>
 
             </div>
