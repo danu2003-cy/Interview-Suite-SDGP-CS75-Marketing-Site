@@ -53,11 +53,11 @@ function Footer() {
           </div>
 
           {/* Contact Form */}
-          <div className="col-md-3">
+          <div className="col-md-3 footer-down">
             <h5>CONTACT US</h5>
             <Form className="newsletter-form" onSubmit={handleEmailSubmit}>
               <Form.Control type="email" id="userEmail" placeholder="Enter your email address" required />
-              <Button variant="primary" type="submit">→</Button>
+              <Button variant="primary" type="submit" className='newsletter-form-btn'>→</Button>
             </Form>
             <p className="phone">interviewsuite@gmail.com</p>
             <p className="copyright">© 2024 Interview Suite. All rights reserved.</p>
