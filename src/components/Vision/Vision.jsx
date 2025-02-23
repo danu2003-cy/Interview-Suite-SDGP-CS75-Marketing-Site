@@ -24,7 +24,7 @@ const Vision = () => {
           {/* Challenge */}
           <Col md={6} className="challenge">
             <div className="content-box">
-              <h3>⚠️ The Challenge</h3>
+              <h3 className="text-white">⚠️ The Challenge</h3>
               <p>
               Many fresh IT interns struggle to succeed in real interviews due to a lack of structured preparation.  
                 The most common issues include:
@@ -49,7 +49,7 @@ const Vision = () => {
           {/* Solution */}
           <Col md={6} className="solution">
             <div className="content-box">
-              <h3>✅ Our Solution</h3>
+              <h3 className="text-white">✅ Our Solution</h3>
               <p>
                 <strong>Interview Suite</strong>is a next-generation AI-powered platform that transforms how IT interns prepare for interviews.  
                 Our system offers:
