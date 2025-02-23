@@ -1,5 +1,9 @@
 {
-  "homepage": "https://danu2003-cy.gihub.io/Interview-Suite-SDGP-CS75-Marketing-Site",
+  "homepage": "https://danu2003-cy.github.io/Interview-Suite-SDGP-CS75-Marketing-Site",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danu2003-cy/Interview-Suite-SDGP-CS75-Marketing-Site.git"
+  },
   "name": "vite-react-starter",
   "private": true,
   "version": "0.0.0",
