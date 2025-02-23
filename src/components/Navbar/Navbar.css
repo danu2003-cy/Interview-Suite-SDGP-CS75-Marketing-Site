@@ -1,53 +1,77 @@
 
 /* Navigation */
 .navbar {
-    padding: 1rem 0;
-    transition: all 0.3s ease;
-    background: hsla(262, 100%, 15%, 0.844) !important;
-    backdrop-filter: blur(10px);
-  }
+  padding: 1rem 0;
+  transition: all 0.3s ease;
+  background: hsla(262, 100%, 15%, 0.844) !important;
+  backdrop-filter: blur(10px);
+}
 
-  .navbar-brand img {
-    height: 50px;
-    width: 50px;
-    transition: all 0.3s ease;
-    margin-left: -10PX;
-  }
-  
-  .nav-link {
-    color: white !important;
-    font-weight: 500;
-    padding: 0.5rem 1rem !important;
-    margin: 0 0.25rem;
-    transition: all 0.3s ease;
-    position: relative;
-  }
-  
-  .nav-link::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    background: var(--primary-light);
-    transition: all 0.3s ease;
-    transform: translateX(-50%);
-  }
-  
-  .nav-link:hover::after {
-    width: 80%;
-  }
-  
-  .navbar .btn {
-    background: var(--primary-light);
-    color: var(--white);
-    padding: 0.5rem 1.5rem;
-    border: none;
-    transition: all 0.3s ease;
-  }
-  
-  .navbar .btn:hover {
-    background: var(--primary);
-    transform: translateY(-2px);
-  }
+.navbar-brand img {
+  height: 50px;
+  width: 50px;
+  transition: all 0.3s ease;
+  margin-left: -10PX;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  margin: 0 0.25rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--primary-light);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+  width: 80%;
+}
+
+.navbar .btn {
+  display: block;
+  width: 90%; /* Ensures button stretches */
+  max-width: 309px; /* Prevents it from becoming too wide */
+  margin: 20px auto 10px; /* Centers it with proper spacing */
+  text-align: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+  font-size: clamp(0.9rem, 2vw, 1rem);
+  background: var(--primary-light);
+  color: var(--white);
+}
+
+.navbar .btn:hover {
+  background: var(--primary);
+  transform: translateY(-2px);
+}
+
+
+/* 🔹 MEDIA QUERIES FOR IMPROVED RESPONSIVENESS */
+@media (max-width: 576px) {
+.navbar .btn {
+  display: none;
+}
+}
+
+@media (min-width: 992px) {
+.navbar .btn {
+  width: 100%;
+  width: auto; /* Auto width on large screens */
+  padding: 0.5rem 2rem;
+  margin-top: 0;
+}
+}
